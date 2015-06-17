@@ -1,0 +1,6 @@
+{
+	"roomURL": "", //room link
+	"email": "", // plug.dj email
+	"password": "", //plug.dj password
+	"reloadAfterMinutes": 60 // dont change
+}
