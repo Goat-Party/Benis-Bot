@@ -7,7 +7,7 @@ module.exports = function(ChunkBot) {
 	 *************************/
 
 	// The fastest that this bot will generate messages in succession (milliseconds).
-	ChunkBot.config.rateLimit = 2000;
+	ChunkBot.config.rateLimit = 750;
 
 	// Enable force skipping by default?
 	ChunkBot.config.forceSkip = false;

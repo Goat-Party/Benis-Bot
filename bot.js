@@ -642,6 +642,8 @@ var ChunkBot = {
 			// User enter room.
 			USER_JOIN: function(user) {
 				instance.log("[User Enter] " + user.username);
+                var message = "wb @" + user.username;
+                ChunkBot.say(message);
 			},
 
 			// User leave room.
@@ -815,6 +817,9 @@ var ChunkBot = {
 			instance.processIdle();
 		}, 3000);
     }
+
+    
+
 };
 
 
